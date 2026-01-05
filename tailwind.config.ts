@@ -57,6 +57,22 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // KAIRUFLOW custom colors
+        cream: {
+          DEFAULT: "hsl(var(--cream))",
+          warm: "hsl(var(--cream-warm))",
+          dark: "hsl(var(--cream-dark))",
+        },
+        "soft-black": {
+          DEFAULT: "hsl(var(--soft-black))",
+          light: "hsl(var(--soft-black-light))",
+        },
+        "beige-gold": {
+          DEFAULT: "hsl(var(--beige-gold))",
+          light: "hsl(var(--beige-gold-light))",
+        },
+        "coral-soft": "hsl(var(--coral-soft))",
+        "brown-soft": "hsl(var(--brown-soft))",
       },
       borderRadius: {
         lg: "var(--radius)",
