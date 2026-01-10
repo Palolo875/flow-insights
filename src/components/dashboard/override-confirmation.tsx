@@ -71,10 +71,8 @@ export function OverrideConfirmation({
   // Gérer la confirmation
   const handleConfirm = () => {
     if (cost.explanationRequired && !reason.trim()) {
-      // Dans une implémentation réelle, afficher une erreur
       return;
     }
-    
     onConfirm(reason || undefined);
   };
 
