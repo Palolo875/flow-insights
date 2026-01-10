@@ -8,7 +8,7 @@ interface FocusButtonProps {
 
 export function FocusButton({ taskId }: FocusButtonProps) {
   return (
-    <Link to={`/focus/${encodeURIComponent(taskId)}`}>
+    <Link to={`/dashboard/focus/${encodeURIComponent(taskId)}`}>
       <Button 
         variant="outline" 
         size="sm"
